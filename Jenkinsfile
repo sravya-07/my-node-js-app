@@ -38,7 +38,6 @@ pipeline
             steps
             {
                 sh '''
-                    docker login sravya1/mynodejsapp
                     docker push sravya1/mynodejsapp:latest
                 '''
             }
